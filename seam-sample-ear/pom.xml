@@ -1,12 +1,12 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
   <modelVersion>4.0.0</modelVersion>
   <parent>
-    <artifactId>lasttry-parent</artifactId>
+    <artifactId>seam-sample-parent</artifactId>
     <groupId>org.jjflyboy</groupId>
     <version>0.0.1-SNAPSHOT</version>
   </parent>
   <groupId>org.jjflyboy</groupId>
-  <artifactId>lasttry-ear</artifactId>
+  <artifactId>seam-sample-ear</artifactId>
   <version>0.0.1-SNAPSHOT</version>
   <packaging>ear</packaging>
   <name> - EAR</name>
@@ -14,14 +14,14 @@
   <dependencies>
     <dependency>
       <groupId>org.jjflyboy</groupId>
-      <artifactId>lasttry-ejb</artifactId>
+      <artifactId>seam-sample-ejb</artifactId>
       <version>0.0.1-SNAPSHOT</version>
       <type>ejb</type>
       <scope>runtime</scope>
     </dependency>
     <dependency>
       <groupId>org.jjflyboy</groupId>
-      <artifactId>lasttry</artifactId>
+      <artifactId>seam-sample</artifactId>
       <version>0.0.1-SNAPSHOT</version>
       <type>war</type>
       <scope>runtime</scope>
@@ -90,7 +90,7 @@
     </dependency>
   </dependencies>
   <build>
-    <finalName>lasttry-ear</finalName>
+    <finalName>seam-sample-ear</finalName>
     <plugins>
       <plugin>
         <artifactId>maven-ear-plugin</artifactId>
@@ -102,8 +102,8 @@
           <modules>
             <webModule>
               <groupId>org.jjflyboy</groupId>
-              <artifactId>lasttry</artifactId>
-              <contextRoot>lasttry</contextRoot>
+              <artifactId>seam-sample</artifactId>
+              <contextRoot>seam-sample</contextRoot>
             </webModule>
           </modules>
         </configuration>

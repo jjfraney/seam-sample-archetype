@@ -1,12 +1,12 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<parent>
-		<artifactId>lasttry-parent</artifactId>
+		<artifactId>seam-sample-parent</artifactId>
 		<groupId>org.jjflyboy</groupId>
 		<version>0.0.1-SNAPSHOT</version>
 	</parent>
 	<modelVersion>4.0.0</modelVersion>
   <groupId>org.jjflyboy</groupId>
-  <artifactId>lasttry</artifactId>
+  <artifactId>seam-sample</artifactId>
   <version>0.0.1-SNAPSHOT</version>
   <packaging>war</packaging>
   <name/>
@@ -98,7 +98,7 @@
   	</dependency>
   	<dependency>
   		<groupId>org.jjflyboy</groupId>
-  		<artifactId>lasttry-ejb</artifactId>
+  		<artifactId>seam-sample-ejb</artifactId>
   		<version>0.0.1-SNAPSHOT</version>
   		<type>ejb</type>
   		<scope>provided</scope>
