@@ -7,11 +7,6 @@
   <prerequisites>
     <maven>2.0.9</maven>
   </prerequisites>
-  <modules>
-    <module>../lasttry</module>
-    <module>../lasttry-ejb</module>
-    <module>../lasttry-ear</module>
-  </modules>
   <properties>
     <jbpm.version>3.2.2</jbpm.version>
     <project.version>0.0.1-SNAPSHOT</project.version>
