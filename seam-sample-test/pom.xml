@@ -54,15 +54,5 @@
     </dependency>
   </dependencies>
   <build>
-    <sourceDirectory>${basedir}/test-src</sourceDirectory>
-    <outputDirectory>${basedir}/bin</outputDirectory>
-    <resources>
-      <resource>
-        <directory>${basedir}/test-src</directory>
-        <excludes>
-          <exclude>**/*.java</exclude>
-        </excludes>
-      </resource>
-    </resources>
   </build>
 </project>
