@@ -3,7 +3,7 @@
   <display-name>seam-sample-ear</display-name>
   <module>
     <web>
-      <web-uri>seam-sample.war</web-uri>
+      <web-uri>seam-sample-web.war</web-uri>
       <context-root>/seam-sample</context-root>
     </web>
   </module>

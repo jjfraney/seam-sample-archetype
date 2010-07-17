@@ -21,7 +21,7 @@
     </dependency>
     <dependency>
       <groupId>org.jjflyboy</groupId>
-      <artifactId>seam-sample</artifactId>
+      <artifactId>seam-sample-web</artifactId>
       <version>0.0.1-SNAPSHOT</version>
       <type>war</type>
       <scope>runtime</scope>
@@ -102,7 +102,7 @@
           <modules>
             <webModule>
               <groupId>org.jjflyboy</groupId>
-              <artifactId>seam-sample</artifactId>
+              <artifactId>seam-sample-web</artifactId>
               <contextRoot>seam-sample</contextRoot>
             </webModule>
           </modules>
