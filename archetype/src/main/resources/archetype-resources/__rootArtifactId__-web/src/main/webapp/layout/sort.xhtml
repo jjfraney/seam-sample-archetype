@@ -1,0 +1,14 @@
+#set( $symbol_pound = '#' )
+#set( $symbol_dollar = '$' )
+#set( $symbol_escape = '\' )
+<ui:composition xmlns="http://www.w3.org/1999/xhtml"
+    xmlns:ui="http://java.sun.com/jsf/facelets"
+    xmlns:f="http://java.sun.com/jsf/core"
+    xmlns:h="http://java.sun.com/jsf/html"
+    xmlns:c="http://java.sun.com/jstl/core"
+    xmlns:s="http://jboss.com/products/seam/taglib">
+    <s:link styleClass="columnHeader" value="${symbol_pound}{propertyLabel} ${symbol_pound}{entityList.orderColumn == propertyPath ? (entityList.orderDirection == 'desc' ? messages.down : messages.up) : ''}">
+        <f:param name="sort" value="${symbol_pound}{propertyPath}"/>
+        <f:param name="dir" value="${symbol_pound}{entityList.orderColumn == propertyPath and entityList.orderDirection == 'asc' ? 'desc' : 'asc'}"/>
+    </s:link>
+</ui:composition>
