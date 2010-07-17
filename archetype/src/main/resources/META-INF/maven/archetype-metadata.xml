@@ -95,10 +95,10 @@
             <include>hibernate-console.properties</include>
           </includes>
         </fileSet>
-        <fileSet encoding="UTF-8">
+        <fileSet filtered="true" encoding="UTF-8">
           <directory></directory>
           <includes>
-            <include>seam-sample-ejb.launch</include>
+            <include>*.launch</include>
             <include>.gitignore</include>
           </includes>
         </fileSet>
@@ -112,13 +112,13 @@
             <include>**/*.xhtml</include>
             <include>**/*.html</include>
             <include>**/*.xml</include>
+            <include>**/*.MF</include>
           </includes>
         </fileSet>
         <fileSet encoding="UTF-8">
           <directory>src/main/webapp</directory>
           <includes>
             <include>**/*.xcss</include>
-            <include>**/*.MF</include>
             <include>**/*.png</include>
             <include>**/*.css</include>
             <include>**/*.gif</include>
@@ -149,7 +149,7 @@
         <fileSet filtered="true" encoding="UTF-8">
           <directory></directory>
           <includes>
-            <include>seam-sample-ds.xml</include>
+            <include>*-ds.xml</include>
           </includes>
         </fileSet>
         <fileSet encoding="UTF-8">

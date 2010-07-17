@@ -90,7 +90,7 @@
     </dependency>
   </dependencies>
   <build>
-    <finalName>seam-sample-ear</finalName>
+    <finalName>${parentArtifactId}-ear</finalName>
     <plugins>
       <plugin>
         <artifactId>maven-ear-plugin</artifactId>
@@ -102,8 +102,8 @@
           <modules>
             <webModule>
               <groupId>org.jjflyboy</groupId>
-              <artifactId>seam-sample-web</artifactId>
-              <contextRoot>seam-sample</contextRoot>
+              <artifactId>${parentArtifactId}-web</artifactId>
+              <contextRoot>${rootArtifactId}</contextRoot>
             </webModule>
           </modules>
         </configuration>

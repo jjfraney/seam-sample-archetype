@@ -10,5 +10,5 @@
 <stringAttribute key="org.eclipse.jdt.launching.PROJECT_ATTR" value="seam-sample-ejb"/>
 <stringAttribute key="org.hibernate.eclipse.launch.CONFIGURATION_FACTORY" value="JPA"/>
 <stringAttribute key="org.hibernate.eclipse.launch.CONNECTION_PROFILE_NAME" value="jjfhome"/>
-<stringAttribute key="org.hibernate.eclipse.launch.PROPERTY_FILE" value="/seam-sample-ejb/hibernate-console.properties"/>
+<stringAttribute key="org.hibernate.eclipse.launch.PROPERTY_FILE" value="/${parentArtifactId}-ejb/hibernate-console.properties"/>
 </launchConfiguration>
