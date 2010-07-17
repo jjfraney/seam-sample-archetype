@@ -18,7 +18,7 @@
                  http://jboss.com/products/seam/web http://jboss.com/products/seam/web-2.2.xsd
                  http://jboss.com/products/seam/components http://jboss.com/products/seam/components-2.2.xsd">
 
-   <core:init debug="true" jndi-pattern="lasttry-ear/#{ejbName}/local"/>
+   <core:init debug="true" jndi-pattern="seam-sample-ear/#{ejbName}/local"/>
 
    <core:manager concurrent-request-timeout="500"
                  conversation-timeout="120000"
@@ -29,7 +29,7 @@
    <web:hot-deploy-filter url-pattern="*.seam"/>
 
    <persistence:managed-persistence-context name="entityManager" auto-create="true"
-                      persistence-unit-jndi-name="java:/lasttryEntityManagerFactory"/>
+                      persistence-unit-jndi-name="java:/seam-sampleEntityManagerFactory"/>
 
    <drools:rule-base name="securityRules">
       <drools:rule-files>

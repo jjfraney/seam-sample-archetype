@@ -6,6 +6,6 @@
 <jboss-app>
 	<module-order>strict</module-order>
 	<loader-repository>
-		seam.jboss.org:loader=lasttry-ear.ear
+		seam.jboss.org:loader=seam-sample-ear.ear
 	</loader-repository>
 </jboss-app>

@@ -1,4 +1,4 @@
-package org.jjflyboy.lasttry.session;
+package org.jjflyboy.sample.session;
 
 import org.jboss.seam.annotations.In;
 import org.jboss.seam.annotations.Logger;
