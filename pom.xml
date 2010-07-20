@@ -9,5 +9,6 @@
     <module>seam-sample-ejb</module>
     <module>seam-sample-web</module>
     <module>seam-sample-ear</module>
+    <module>seam-sample-test</module>
   </modules>
 </project>

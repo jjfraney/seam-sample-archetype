@@ -3,51 +3,6 @@
     xmlns="http://maven.apache.org/plugins/maven-archetype-plugin/archetype-descriptor/1.0.0"
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <fileSets>
-    <fileSet filtered="true" encoding="UTF-8">
-      <directory>seam-sample-test/bin</directory>
-      <includes>
-        <include>**/*.xml</include>
-        <include>**/*.properties</include>
-      </includes>
-    </fileSet>
-    <fileSet filtered="true" encoding="UTF-8">
-      <directory>seam-sample-test</directory>
-      <includes>
-        <include>**/*.xml</include>
-      </includes>
-    </fileSet>
-    <fileSet filtered="true" encoding="UTF-8">
-      <directory>seam-sample-test/bootstrap</directory>
-      <includes>
-        <include>**/*.xml</include>
-        <include>**/*.properties</include>
-      </includes>
-    </fileSet>
-    <fileSet filtered="true" encoding="UTF-8">
-      <directory>seam-sample-test/test-src</directory>
-      <includes>
-        <include>**/*.xml</include>
-        <include>**/*.properties</include>
-      </includes>
-    </fileSet>
-    <fileSet encoding="UTF-8">
-      <directory>seam-sample-test</directory>
-      <includes>
-        <include>**/*.gitignore</include>
-      </includes>
-    </fileSet>
-    <fileSet encoding="UTF-8">
-      <directory>seam-sample-test/bootstrap</directory>
-      <includes>
-        <include>**/*.rar</include>
-      </includes>
-    </fileSet>
-    <fileSet filtered="true" encoding="UTF-8">
-      <directory></directory>
-      <includes>
-        <include>readme.txt</include>
-      </includes>
-    </fileSet>
     <fileSet encoding="UTF-8">
       <directory></directory>
       <includes>
@@ -150,6 +105,67 @@
           <directory></directory>
           <includes>
             <include>*-ds.xml</include>
+          </includes>
+        </fileSet>
+        <fileSet encoding="UTF-8">
+          <directory></directory>
+          <includes>
+            <include>.gitignore</include>
+          </includes>
+        </fileSet>
+      </fileSets>
+    </module>
+    <module id="${rootArtifactId}-test" dir="__rootArtifactId__-test" name="${rootArtifactId}-test">
+      <fileSets>
+        <fileSet filtered="true" encoding="UTF-8">
+          <directory>src/test/java</directory>
+          <includes>
+            <include>**/*.java</include>
+          </includes>
+        </fileSet>
+        <fileSet filtered="true" encoding="UTF-8">
+          <directory>src/test/resources</directory>
+          <includes>
+            <include>**/*.xml</include>
+            <include>**/*.properties</include>
+          </includes>
+        </fileSet>
+        <fileSet filtered="true" encoding="UTF-8">
+          <directory>bootstrap</directory>
+          <includes>
+            <include>**/*.xml</include>
+            <include>**/*.properties</include>
+          </includes>
+        </fileSet>
+        <fileSet filtered="true" encoding="UTF-8">
+          <directory>bootstrap/conf</directory>
+          <includes>
+            <include>**/*.xml</include>
+            <include>**/*.properties</include>
+          </includes>
+        </fileSet>
+        <fileSet filtered="true" encoding="UTF-8">
+          <directory>bootstrap/deploy</directory>
+          <includes>
+            <include>**/*.xml</include>
+          </includes>
+        </fileSet>
+        <fileSet filtered="true" encoding="UTF-8">
+          <directory>bootstrap/deployers</directory>
+          <includes>
+            <include>**/*.xml</include>
+          </includes>
+        </fileSet>
+        <fileSet filtered="true" encoding="UTF-8">
+          <directory>bootstrap/META-INF</directory>
+          <includes>
+            <include>**/*.properties</include>
+          </includes>
+        </fileSet>
+        <fileSet encoding="UTF-8">
+          <directory>bootstrap/deploy</directory>
+          <includes>
+            <include>**/*.rar</include>
           </includes>
         </fileSet>
         <fileSet encoding="UTF-8">

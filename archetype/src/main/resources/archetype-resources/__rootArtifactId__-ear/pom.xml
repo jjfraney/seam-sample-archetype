@@ -101,7 +101,7 @@
           <defaultLibBundleDir>lib</defaultLibBundleDir>
           <modules>
             <webModule>
-              <groupId>org.jjflyboy</groupId>
+              <groupId>${groupId}</groupId>
               <artifactId>${parentArtifactId}-web</artifactId>
               <contextRoot>${rootArtifactId}</contextRoot>
             </webModule>

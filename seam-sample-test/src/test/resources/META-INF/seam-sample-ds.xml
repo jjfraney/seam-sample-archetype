@@ -7,10 +7,11 @@
    <local-tx-datasource>
       <jndi-name>seam-sampleDatasource</jndi-name>
       <use-java-context>true</use-java-context>
-      <connection-url>jdbc:mysql://localhost:3306/jjfhome</connection-url>
-      <driver-class>com.mysql.jdbc.Driver</driver-class>
-      <user-name>john</user-name>
-      <password>db0wie</password>
+      <connection-url>jdbc:hsqldb:${jboss.server.data.dir}${/}hypersonic${/}localDB</connection-url>
+      <driver-class>org.hsqldb.jdbcDriver</driver-class>
+      <user-name>sa</user-name>
+      <password></password>
+
    </local-tx-datasource>
     
 </datasources>
